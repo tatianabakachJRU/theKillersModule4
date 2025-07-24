@@ -66,3 +66,11 @@ CREATE TABLE reviews (
                          created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE user_course_progress(
+    user_id INT REFERENCES users(id),
+    course_id INT REFERENCES courses(id),
+    progress_percent INT CHECK (progress_percent BETWEEN 0 AND 100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, course_id)
+);
+

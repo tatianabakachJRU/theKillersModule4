@@ -6,3 +6,5 @@
   [Файл с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources/lecture_1.sql )
 - [Уровень_2: Сложные SQL-запросы.] 
   [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )
+- [Уровень_3: SQL-запросы к нескольким таблицам.]
+  [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )

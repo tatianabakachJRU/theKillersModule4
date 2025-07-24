@@ -81,3 +81,7 @@ VALUES ('Курс без категории', 'Этот курс не имеет
 
 -- Категория, к которой не привязан ни один курс
 INSERT INTO categories (name) VALUES ('Аналитика');
+
+--Этот запрос упадет с ошибкой, т.к. нет user с id = 34
+INSERT INTO courses (title, description, category_id, teacher_id, price) VALUES
+                                                                             ('Java для начинающих', 'Изучи Java с нуля', 1, 34, 199.99);
