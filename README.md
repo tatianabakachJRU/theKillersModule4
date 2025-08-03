@@ -10,4 +10,6 @@
   [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )
 - [Уровень_4: Уровень 4. SQL-типы данных и SQL-функции.]
   [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )
+- [Уровень_6: Уровень 4. Изменение данных в таблице: insert, update, delete.]
+  [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )
 

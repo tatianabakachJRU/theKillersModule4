@@ -2,6 +2,8 @@ CREATE DATABASE online_school;
 
 DROP DATABASE online_school;
 
+SET search_path TO public;
+
 -- Категории курсов
 CREATE TABLE categories
 (
@@ -27,10 +29,17 @@ CREATE TABLE courses
     title       VARCHAR(255) NOT NULL,
     description TEXT,
     category_id INT REFERENCES categories (id),
-    teacher_id  INT REFERENCES users (id),
+    teacher_id INT,
+    FOREIGN KEY (teacher_id) REFERENCES users (id),
     price       NUMERIC(10, 2),
     created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+ALTER TABLE courses
+ADD CONSTRAINT fk_course_teacher
+FOREIGN KEY (teacher_id) REFERENCES users(id)
+ON DELETE SET NULL
+ON UPDATE CASCADE;
 
 -- Уроки
 CREATE TABLE lessons
