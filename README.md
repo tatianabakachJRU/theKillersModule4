@@ -12,4 +12,6 @@
   [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )
 - [Уровень_6: Уровень 4. Изменение данных в таблице: insert, update, delete.]
   [Файлы с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources )
+- [Уровень_7: JDBC.](https://github.com/tatianabakachJRU/theKillersModule4/tree/main/src/main/java/com/javarush/lecture_7 )  
+  [Файл с SQL.](https://github.com/tatianabakachJRU/theKillersModule4/blob/main/src/main/resources/lecture_1.sql )
 
